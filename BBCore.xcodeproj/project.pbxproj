@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7956695B1DD7CC150032FDA7 /* BBFrameworksConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 795669591DD7CC150032FDA7 /* BBFrameworksConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7956695C1DD7CC150032FDA7 /* BBFrameworksConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 795669591DD7CC150032FDA7 /* BBFrameworksConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7956695D1DD7CC150032FDA7 /* BBFrameworksFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7956695A1DD7CC150032FDA7 /* BBFrameworksFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7956695E1DD7CC150032FDA7 /* BBFrameworksFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7956695A1DD7CC150032FDA7 /* BBFrameworksFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79D00E041DD7C821005DA58E /* BBCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D00E021DD7C821005DA58E /* BBCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79D00E1A1DD7C8EF005DA58E /* BBFrameworksMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D00E181DD7C8EF005DA58E /* BBFrameworksMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79D00E1B1DD7C8EF005DA58E /* BBFrameworksMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D00E181DD7C8EF005DA58E /* BBFrameworksMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79D00E1C1DD7C8EF005DA58E /* BBFrameworksMacrosPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D00E191DD7C8EF005DA58E /* BBFrameworksMacrosPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79D00E1D1DD7C8EF005DA58E /* BBFrameworksMacrosPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D00E191DD7C8EF005DA58E /* BBFrameworksMacrosPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79D00E1E1DD7C92A005DA58E /* BBCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D00E021DD7C821005DA58E /* BBCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79D00E311DD7CB07005DA58E /* BBFrameworksConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D00E2F1DD7CB07005DA58E /* BBFrameworksConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79D00E321DD7CB07005DA58E /* BBFrameworksConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D00E2F1DD7CB07005DA58E /* BBFrameworksConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79D00E331DD7CB07005DA58E /* BBFrameworksFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D00E301DD7CB07005DA58E /* BBFrameworksFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79D00E341DD7CB07005DA58E /* BBFrameworksFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D00E301DD7CB07005DA58E /* BBFrameworksFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		795669591DD7CC150032FDA7 /* BBFrameworksConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBFrameworksConstants.h; sourceTree = "<group>"; };
+		7956695A1DD7CC150032FDA7 /* BBFrameworksFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBFrameworksFunctions.h; sourceTree = "<group>"; };
 		79D00DFF1DD7C821005DA58E /* BBCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BBCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D00E021DD7C821005DA58E /* BBCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBCore.h; sourceTree = "<group>"; };
 		79D00E031DD7C821005DA58E /* iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS-Info.plist"; sourceTree = "<group>"; };
@@ -27,8 +29,6 @@
 		79D00E171DD7C8B7005DA58E /* watchOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "watchOS-Info.plist"; sourceTree = "<group>"; };
 		79D00E181DD7C8EF005DA58E /* BBFrameworksMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBFrameworksMacros.h; sourceTree = "<group>"; };
 		79D00E191DD7C8EF005DA58E /* BBFrameworksMacrosPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBFrameworksMacrosPrivate.h; sourceTree = "<group>"; };
-		79D00E2F1DD7CB07005DA58E /* BBFrameworksConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBFrameworksConstants.h; path = ../../BBFrameworks/BBFrameworks/BBFrameworksConstants.h; sourceTree = "<group>"; };
-		79D00E301DD7CB07005DA58E /* BBFrameworksFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBFrameworksFunctions.h; path = ../../BBFrameworks/BBFrameworks/BBFrameworksFunctions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +72,8 @@
 				79D00E021DD7C821005DA58E /* BBCore.h */,
 				79D00E181DD7C8EF005DA58E /* BBFrameworksMacros.h */,
 				79D00E191DD7C8EF005DA58E /* BBFrameworksMacrosPrivate.h */,
-				79D00E2F1DD7CB07005DA58E /* BBFrameworksConstants.h */,
-				79D00E301DD7CB07005DA58E /* BBFrameworksFunctions.h */,
+				795669591DD7CC150032FDA7 /* BBFrameworksConstants.h */,
+				7956695A1DD7CC150032FDA7 /* BBFrameworksFunctions.h */,
 				79D00E031DD7C821005DA58E /* iOS-Info.plist */,
 				79D00E171DD7C8B7005DA58E /* watchOS-Info.plist */,
 			);
@@ -89,9 +89,9 @@
 			files = (
 				79D00E1C1DD7C8EF005DA58E /* BBFrameworksMacrosPrivate.h in Headers */,
 				79D00E1A1DD7C8EF005DA58E /* BBFrameworksMacros.h in Headers */,
-				79D00E331DD7CB07005DA58E /* BBFrameworksFunctions.h in Headers */,
+				7956695D1DD7CC150032FDA7 /* BBFrameworksFunctions.h in Headers */,
 				79D00E041DD7C821005DA58E /* BBCore.h in Headers */,
-				79D00E311DD7CB07005DA58E /* BBFrameworksConstants.h in Headers */,
+				7956695B1DD7CC150032FDA7 /* BBFrameworksConstants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,9 +101,9 @@
 			files = (
 				79D00E1D1DD7C8EF005DA58E /* BBFrameworksMacrosPrivate.h in Headers */,
 				79D00E1B1DD7C8EF005DA58E /* BBFrameworksMacros.h in Headers */,
-				79D00E341DD7CB07005DA58E /* BBFrameworksFunctions.h in Headers */,
+				7956695E1DD7CC150032FDA7 /* BBFrameworksFunctions.h in Headers */,
 				79D00E1E1DD7C92A005DA58E /* BBCore.h in Headers */,
-				79D00E321DD7CB07005DA58E /* BBFrameworksConstants.h in Headers */,
+				7956695C1DD7CC150032FDA7 /* BBFrameworksConstants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
