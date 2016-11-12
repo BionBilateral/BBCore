@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "79D00DFE1DD7C821005DA58E"
-               BuildableName = "BBCore-iOS.framework"
+               BuildableName = "BBCore.framework"
                BlueprintName = "BBCore-iOS"
                ReferencedContainer = "container:BBCore.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "79D00DFE1DD7C821005DA58E"
-            BuildableName = "BBCore-iOS.framework"
+            BuildableName = "BBCore.framework"
             BlueprintName = "BBCore-iOS"
             ReferencedContainer = "container:BBCore.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "79D00DFE1DD7C821005DA58E"
-            BuildableName = "BBCore-iOS.framework"
+            BuildableName = "BBCore.framework"
             BlueprintName = "BBCore-iOS"
             ReferencedContainer = "container:BBCore.xcodeproj">
          </BuildableReference>

@@ -20,3 +20,5 @@ FOUNDATION_EXPORT double BBCoreVersionNumber;
 FOUNDATION_EXPORT const unsigned char BBCoreVersionString[];
 
 #import <BBCore/BBFrameworksMacros.h>
+#import <BBCore/BBFrameworksConstants.h>
+#import <BBCore/BBFrameworksFunctions.h>

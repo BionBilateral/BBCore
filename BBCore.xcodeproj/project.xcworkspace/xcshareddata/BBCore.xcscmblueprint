@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "61B6612DD8FFFDEE8CF01CD2C3468A0FA9D586CC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "61B6612DD8FFFDEE8CF01CD2C3468A0FA9D586CC" : 9223372036854775807,
+    "5804C195D4AB78CDBF47CEF531FBCB6E0B78FC07" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7A40B7C8-59F5-496A-80F2-75450D7494E2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "61B6612DD8FFFDEE8CF01CD2C3468A0FA9D586CC" : "BBCore\/",
+    "5804C195D4AB78CDBF47CEF531FBCB6E0B78FC07" : "BBFrameworks\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BBCore",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BBCore.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:BionBilateral\/BBFrameworks.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5804C195D4AB78CDBF47CEF531FBCB6E0B78FC07"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BionBilateral\/BBCore.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "61B6612DD8FFFDEE8CF01CD2C3468A0FA9D586CC"
+    }
+  ]
+}

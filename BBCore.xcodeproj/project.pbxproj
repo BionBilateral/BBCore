@@ -13,6 +13,10 @@
 		79D00E1C1DD7C8EF005DA58E /* BBFrameworksMacrosPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D00E191DD7C8EF005DA58E /* BBFrameworksMacrosPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79D00E1D1DD7C8EF005DA58E /* BBFrameworksMacrosPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D00E191DD7C8EF005DA58E /* BBFrameworksMacrosPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79D00E1E1DD7C92A005DA58E /* BBCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D00E021DD7C821005DA58E /* BBCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79D00E311DD7CB07005DA58E /* BBFrameworksConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D00E2F1DD7CB07005DA58E /* BBFrameworksConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79D00E321DD7CB07005DA58E /* BBFrameworksConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D00E2F1DD7CB07005DA58E /* BBFrameworksConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79D00E331DD7CB07005DA58E /* BBFrameworksFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D00E301DD7CB07005DA58E /* BBFrameworksFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79D00E341DD7CB07005DA58E /* BBFrameworksFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D00E301DD7CB07005DA58E /* BBFrameworksFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,8 @@
 		79D00E171DD7C8B7005DA58E /* watchOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "watchOS-Info.plist"; sourceTree = "<group>"; };
 		79D00E181DD7C8EF005DA58E /* BBFrameworksMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBFrameworksMacros.h; sourceTree = "<group>"; };
 		79D00E191DD7C8EF005DA58E /* BBFrameworksMacrosPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBFrameworksMacrosPrivate.h; sourceTree = "<group>"; };
+		79D00E2F1DD7CB07005DA58E /* BBFrameworksConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBFrameworksConstants.h; path = ../../BBFrameworks/BBFrameworks/BBFrameworksConstants.h; sourceTree = "<group>"; };
+		79D00E301DD7CB07005DA58E /* BBFrameworksFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBFrameworksFunctions.h; path = ../../BBFrameworks/BBFrameworks/BBFrameworksFunctions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,8 @@
 				79D00E021DD7C821005DA58E /* BBCore.h */,
 				79D00E181DD7C8EF005DA58E /* BBFrameworksMacros.h */,
 				79D00E191DD7C8EF005DA58E /* BBFrameworksMacrosPrivate.h */,
+				79D00E2F1DD7CB07005DA58E /* BBFrameworksConstants.h */,
+				79D00E301DD7CB07005DA58E /* BBFrameworksFunctions.h */,
 				79D00E031DD7C821005DA58E /* iOS-Info.plist */,
 				79D00E171DD7C8B7005DA58E /* watchOS-Info.plist */,
 			);
@@ -81,7 +89,9 @@
 			files = (
 				79D00E1C1DD7C8EF005DA58E /* BBFrameworksMacrosPrivate.h in Headers */,
 				79D00E1A1DD7C8EF005DA58E /* BBFrameworksMacros.h in Headers */,
+				79D00E331DD7CB07005DA58E /* BBFrameworksFunctions.h in Headers */,
 				79D00E041DD7C821005DA58E /* BBCore.h in Headers */,
+				79D00E311DD7CB07005DA58E /* BBFrameworksConstants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +101,9 @@
 			files = (
 				79D00E1D1DD7C8EF005DA58E /* BBFrameworksMacrosPrivate.h in Headers */,
 				79D00E1B1DD7C8EF005DA58E /* BBFrameworksMacros.h in Headers */,
+				79D00E341DD7CB07005DA58E /* BBFrameworksFunctions.h in Headers */,
 				79D00E1E1DD7C92A005DA58E /* BBCore.h in Headers */,
+				79D00E321DD7CB07005DA58E /* BBFrameworksConstants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +417,7 @@
 				79D00E091DD7C821005DA58E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79D00E141DD7C870005DA58E /* Build configuration list for PBXNativeTarget "BBCore-watchOS" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				79D00E161DD7C870005DA58E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
